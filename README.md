@@ -16,4 +16,4 @@ Simple Dashboard for visualizing realtime departures of trams in Karlsruhe. You 
 2. visit http://localhost:3030
 
 # Other
-Thanks https://github.com/Nervengift/kvvliveapi for documentation
+Thanks https://github.com/Nervengift/kvvliveapi for API documentation
