@@ -1,5 +1,7 @@
 Simple Dashboard for visualizing realtime departures of trams in Karlsruhe. You can change or extend the stations to be showed. Further documentation coming.
 
+![Alt text](screenshot.png?raw=true "Title")
+
 # Requirements
 * Ruby
 * [Shopify Dashing](http://shopify.github.io/dashing/) - see below for installation instructions
