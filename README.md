@@ -2,16 +2,26 @@ Simple Dashboard for visualizing realtime departures of trams in Karlsruhe. You 
 
 ![Alt text](screenshot.png?raw=true "Title")
 
-# Requirements
+# Running using Docker
+## Requirements
+* Docker (including docker-compose)
+
+## Startup
+1. Run `docker-compose up`
+
+# Running natively
+## Requirements
+* Node.js
 * Ruby
 * [Shopify Dashing](http://shopify.github.io/dashing/) - see below for installation instructions
 
-# Installation
-1. (If not present - install [Shopify Dashing](http://shopify.github.io/dashing/) using `gem install dashing`)
-2. clone this repository
-3. run `bundle` in the cloned folder
+## Installation
+1. install Node.js
+2. install Node.js Coffe-Script package (`npm install coffe-script`)
+3. clone this repository
+4. run `bundle`
 
-# Running
+## Running
 1. run `dashing start` in the cloned folder
 2. visit http://localhost:3030
 

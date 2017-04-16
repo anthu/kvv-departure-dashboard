@@ -1,0 +1,8 @@
+version: '2'
+services:
+  dashboard:
+    build: docker
+    ports:
+    - "3030:3030"
+    volumes:
+    - .:/home/kvv
