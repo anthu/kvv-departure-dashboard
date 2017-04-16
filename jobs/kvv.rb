@@ -22,7 +22,7 @@ end
 
 
 def kvv_request(stop_id)
-  uri = URI.parse("http://live.kvv.de/webapp/departures/bystop/" + stop_id + "?key=377d840e54b59adbe53608ba1aad70e8&maxInfos=5")
+  uri = URI.parse("https://live.kvv.de/webapp/departures/bystop/" + stop_id + "?key=377d840e54b59adbe53608ba1aad70e8&maxInfos=5")
   resp = Net::HTTP.get(uri)
   parsed = JSON.parse(resp)
   return parsed
